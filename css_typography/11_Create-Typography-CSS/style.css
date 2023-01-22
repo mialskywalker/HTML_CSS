@@ -1,0 +1,45 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;   
+}
+table td {
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+table th {
+    padding: 6px;
+    text-align: left;
+    background-color: lightgray;
+}
+
+blockquote {
+    border-left: 3px solid rgb(221, 221, 221);
+    margin-left: 20px;
+    padding: 10px 30px 20px 30px;
+    font-style: italic;
+}
+
+#koko {
+    text-align: right;
+}
