@@ -1,0 +1,33 @@
+body {
+    background-color: lightgray;
+    display: flex;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.gallery ul li {
+    display: flex;
+    list-style-type: none;
+    width: 170px;
+    height: 240px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #000;
+    background-color: #fff;
+}
+
+.gallery ul li img {
+    display: flex;
+    width: 150px
+}
