@@ -1,0 +1,24 @@
+body {
+    padding: 20px 30px;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+header .header-nav .nav-ul {
+    display: flex;
+    gap: 25px;
+}
+
+header .header-nav .nav-ul li {
+    list-style-type: none;
+}
+
+header .header-nav .nav-ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
