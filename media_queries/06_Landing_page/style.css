@@ -1,0 +1,306 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(238, 238, 238);
+}
+
+.navigation-top .logo {
+    width: 18%;
+}
+
+.navigation-top .logo h1 {
+    color: #68347b;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.navigation-top .logo p {
+    font-size: 0.4em;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.navigation-top .logo:hover {
+    cursor: pointer;
+}
+
+.navigation-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-top ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.navigation-top ul li a {
+    text-decoration: none;
+    font-size: 0.87em;
+    color: #000;
+    margin-left: 20px;
+}
+
+.hero {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.hero i {
+    margin-left: 30px;
+}
+
+.hero .content h2 {
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.hero .content p {
+    font-size: 0.9em;
+}
+
+.btn {
+    background-color: rgb(238, 238, 238);
+    border-radius: 3px;
+    border: 1px solid #000;
+    padding: 5px 12px;
+    font-size: 0.7em;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.team h2 {
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.team hr {
+    width: 80px;
+    height: 2px;
+    background-color: #000;
+    border: none;
+}
+
+.team .team-members {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    column-gap: 3rem;
+    justify-items: center;
+    margin: auto;
+}
+
+.team .team-members .team-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+    overflow: hidden;
+    outline: 2px solid rgba(255, 255, 255, 0.55);
+    outline-offset: -2px;
+}
+
+.team .team-members .team-card {
+    padding-top: 30px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.team .team-members .team-card .title {
+    text-align: center;
+}
+
+.team .team-members .team-card .title h4 {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.team .team-members .team-card .title h5 {
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+.team .team-members .team-card p {
+    text-align: center;
+    margin-top: 0px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.newsletter {
+    width: 100%;
+    background-color: #68347b;
+    padding: 15px;
+}
+
+.newsletter h2 {
+    font-weight: 400;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.newsletter hr {
+    width: 80px;
+    height: 2px;
+    background-color: #000;
+    border: none;
+}
+
+.newsletter .signup {
+    width: 300px;
+    margin: auto;
+    padding-top: 16px;
+    padding-bottom: 18px;
+}
+
+.testimonials h2 {
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.testimonials hr {
+    width: 80px;
+    height: 2px;
+    background-color: #000;
+    border: none;
+}
+
+.testimonials .test-members {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    column-gap: 3rem;
+    justify-items: center;
+    margin: auto;
+}
+
+.testimonials .test-members .test-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+    overflow: hidden;
+    outline: 2px solid rgba(255, 255, 255, 0.55);
+    outline-offset: -2px;
+}
+
+.testimonials .test-members .test-card {
+    padding-top: 30px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.testimonials .test-members .test-card .title {
+    text-align: center;
+}
+
+.testimonials .test-members .test-card .title h4 {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.testimonials .test-members .test-card .title h5 {
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+.testimonials .test-members .test-card p {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 2px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer .logo {
+    width: 250px;
+}
+
+footer .logo h2 {
+    font-weight: 300;
+}
+
+footer .logo p {
+    font-size: 0.9em;
+}
+
+footer .sitemap {
+    width: 300px;
+}
+
+footer .sitemap h3 {
+    font-weight: 300;
+    font-size: 1em;
+} 
+
+footer .sitemap ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80px;
+    padding-left: 0;
+}
+
+footer .sitemap ul li {
+    list-style-type: none;
+}
+
+footer .sitemap ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9em;
+}
+
+footer .contacts h3 {
+    font-weight: 300;
+    font-size: 1em;
+}
+
+footer .contacts ul {
+    padding-left: 0;
+}
+
+footer .contacts ul li {
+    list-style-type: none;
+    font-size: 0.8em;
+    font-weight: 400;
+}
