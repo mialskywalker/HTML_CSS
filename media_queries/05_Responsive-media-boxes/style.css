@@ -1,0 +1,49 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 42px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-radius: 3px;
+    box-shadow: 0px 0px 25px 0px rgba(110, 110, 110, 0.55);
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card .card-content {
+    padding: 10px 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.card .card-content h3 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+.card .card-content p {
+    margin-top: 2px;
+    font-size: 0.8em;
+}
+
+.card .card-content button {
+    margin-bottom: 15px;
+    float: right;
+    border: none;
+    background-color: rgb(0, 153, 0);
+    color: #fff;
+    padding: 6px 8px;
+    border-radius: 2px;
+}
